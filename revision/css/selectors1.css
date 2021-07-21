@@ -1,0 +1,41 @@
+body{
+    background : rgb(156, 202, 255);
+}
+
+#href_link:link{
+    color:blue;
+}
+
+#href_link:visited{
+    color:red;
+}
+
+/* advanced selectors: adjacent siblings, general sibilings, child selector, descendent selector*/
+
+p + h2{
+    text-decoration: line-through;
+}
+
+textarea ~ button{
+    background:rgb(192, 241, 119);
+}
+
+ul>li{
+    text-decoration: line-through;
+    font-size: 2em;
+}
+
+ol li{
+    color : blue;
+    font-size:3em;
+}
+
+/* attribute selector */
+img[src *= "/img"]{
+    width:200px;
+}
+
+/* whitespace selector */
+p[class ~= article-subtitle]{
+    background : rgb(241, 195, 152);
+}

@@ -1,0 +1,55 @@
+/* the code will implement styling on  concepts learn b/w box model & display property */
+
+h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+#box1{
+    color: white;
+    background-color: blue;
+    height:fit-content;
+    width: 30vw;
+    text-align: center;
+    /* border */
+    border: 10px rgb(98, 123, 190) solid;
+    /* padding */
+    padding: 5px 5px;
+    /* margin */
+    margin:20px 20px;
+}
+
+#box2{
+    color: blue;
+    background-color: wheat;
+    height:fit-content;
+    width: 30vw;
+    text-align: center;
+    /* border */
+    border: 10px rgb(98, 123, 190) solid;
+    /* padding */
+    padding: 5px 5px;
+    /* margin */
+    margin:20px 20px;
+}
+
+
+/* ###################### DEMO OF FLOAT PROPERTY############################### */
+.divs{
+    height:150px;
+    width:40vw;
+    float:right;
+}
+/* ------------------------------- END ---------------------------------------- */
+
+
+/* ###################### DEMO OF DISPLAY PROPERTY############################### */
+#disprop{
+    height: 150px;
+    width: 150px;
+    background-color: teal;
+    display: block;
+}
+
+/* ------------------------------- END ---------------------------------------- */

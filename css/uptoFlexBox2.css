@@ -1,0 +1,87 @@
+/* code related to menu creation start */
+.div_menu{
+    width:auto;
+    height:fit-content;
+    margin:10px;
+    background:rgba(167, 225, 248,0.7);
+    display:flex;
+}
+.brand_name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    margin-right: 10% ;
+    margin-left:20px;
+}
+.option_button{
+    background: rgba(34, 62, 139, 0.7);
+    margin:10px;
+    border:1px solid blue;
+    border-radius: 5px; 
+    color:white;
+    padding:10px;
+}
+/* code related to menu creation end */
+
+/* code related to form creation start */
+.div_content_form{
+    width:auto;
+    height:75%;
+    margin:10px;
+    background:rgba(167, 225, 248,0.5);
+    display:flex;
+    justify-content:center;
+    align-items:stretch;
+}
+
+.hold_form{
+    width:500px;
+    background:rgb(255,255,255);
+    margin:10px;
+    display:flex;
+    flex-direction:column;
+}
+.login_title{
+width:480px;
+height:10%;
+background:cadetblue;
+margin:10px;
+}
+
+#login{
+    color:rgb(255,255,255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height:5px;
+}
+
+.login_data{
+    width: 480px;
+    height:90%;
+    background: darkcyan;
+    display:flex;
+    margin:10px;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+form input{
+    padding:10px;
+    border-radius: 5px;
+    width:300px;
+}
+
+#login_btn{
+    background:rgb(182, 238, 248)
+}
+/* code related to form creation end */
+
+/* code related to footer creation start */
+.div_content_footer{
+    width:auto;
+    height:15%;
+    margin:10px;
+    background:rgba(167, 225, 248,0.7);
+    display:flex;
+}
+/* code related to footer creation end */

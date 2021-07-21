@@ -1,0 +1,18 @@
+.container{
+    width:auto;
+    height:30%;
+    background:rgb(196, 248, 224);
+    margin:20px;
+    display:flex;
+    /* content alignment */
+    justify-content:center;
+    align-items:center;
+}
+.container-item{
+    width:50px;
+    line-height:30px;
+    background:rgb(21, 190, 21);
+    color:white;
+    margin:10px;
+    text-align:center
+}

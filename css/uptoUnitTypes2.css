@@ -1,0 +1,47 @@
+div[class~=size-d]{
+    height:300px;
+    width:50%;
+}
+
+/* ###################################### DEMO OF BACKGROUND PROPERTY########################## */
+
+.bg-1{
+    background: url("../img/img-2.jpg");
+    background-size: cover;
+}
+
+.bg-2{
+    background: url("../img/img-2.jpg");
+    background-size: contain;
+}
+/* -----------------------------------------END-------------------------------------- */
+
+/* ######################################## DEMO OF GRADIENT ############################# */
+.linear-dir{
+    background:linear-gradient(to right top, red, green, blue );
+}
+
+.linear-deg{
+    background:linear-gradient(-45deg,yellow, indigo, steelblue );
+}
+
+.radial-cir{
+    background:radial-gradient(circle, rgb(224, 59, 59), rgb(117, 73, 219), rgb(87, 224, 195));
+}
+
+.radial-elli{
+    background:radial-gradient(rgb(247, 97, 97),rgb(68, 40, 221), #1bf5d1);
+}
+
+/* ---------------------------------------END-------------------------------------- */
+
+/* ######################################### DEMO OF UNIT TYPES ###################### */
+p{
+    font-size:1.5em;
+}
+
+.viewp{
+    height:30vh;
+    width:50vh;
+    background:cyan;
+}

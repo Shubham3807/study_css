@@ -1,0 +1,124 @@
+/* purpose: linked to redesign_challenge.html */
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 0.8em;
+}
+
+.outermost_container{
+    height:fit-content;
+    background:rgb(193, 232, 250);
+    display:flex;
+    flex-direction:row;
+}
+
+.section_one{
+    width:70%;
+    height:fit-content;
+}
+
+/* serve as side bar */
+.section_two{
+    width : 30%;
+    height:100%;
+    margin:2px;
+
+    background:rgb(146, 146, 146);
+    color:honeydew;
+
+    /* side bar as flex container */
+    display:flex;
+    flex-direction:column;
+}
+
+/* serve as element in sidebar */
+.sidebar_item{
+    height:fit-content;
+    background:black;
+    margin:5px;
+    border:3px solid white;
+    
+}
+
+/* to change color of link on being hovered */
+a{
+    transition: color 3s ease 0s;
+}
+a:hover{
+    color:red;
+}
+
+/* to fix dimensions of image  using attribute selector*/
+img[src$=".jpg"]{
+    width:300px;
+    height:180px;
+}/* purpose: linked to redesign_challenge.html */
+body{
+    background:rgb(193, 232, 250);
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 0.8em;
+}
+
+.outermost_container{
+    height:fit-content;
+
+    display:flex;
+    flex-direction:row;
+}
+
+.section_one{
+    width:70%;
+    height:fit-content;
+}
+
+/* serve as side bar */
+.section_two{
+    width : 30%;
+    height:100%;
+    margin:2px;
+
+    background:rgb(146, 146, 146);
+    color:honeydew;
+
+    /* side bar as flex container */
+    display:flex;
+    flex-direction:column;
+}
+
+/* serve as element in sidebar */
+.sidebar_item{
+    height:fit-content;
+    background:black;
+    margin:5px;
+    border:3px solid white;
+    
+}
+
+/* to change color of link on being hovered */
+a{
+    transition: color 3s ease 0s;
+}
+a:hover{
+    color:red;
+}
+
+/* to fix dimensions of image  using attribute selector*/
+img[src$=".jpg"]{
+    height:180px;
+    margin:20px;
+    transition:width,height 0s linear 0s;
+}
+
+img:hover{
+    width:210;
+    height:200px
+}
+
+
+
+/* working on part 3 subtitle one grid box*/
+.subtitle_one_grid{
+    width:fit-content;
+    display:grid;
+}
+
+

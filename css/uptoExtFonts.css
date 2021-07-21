@@ -1,0 +1,22 @@
+#fsize{
+    font-size: 2em;
+}
+
+#fweight{
+    font-weight: 400;
+}
+
+#fstyle{
+    font-style: oblique;
+}
+
+#fgoogle1{
+   font-family: 'Dancing Script', cursive;
+   font-size: 1.5em;
+
+}
+
+#fgoogle2{
+    font-family: 'Zen Dots', cursive;
+    font-size: 1.5em;
+}

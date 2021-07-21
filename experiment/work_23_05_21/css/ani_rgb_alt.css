@@ -1,0 +1,153 @@
+/* linked to animation_rgb_alt.html */
+
+/* ++  part 1 :flex box creation ++*/
+.outermost_container{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center
+
+}
+
+.div_one{
+    width:50px;
+    height:30%;
+    background:red;
+    margin:5px;
+    animation: manage_red 7s linear 0s infinite alternate;
+}
+
+.div_two{
+    width:50px;
+    height:30%;
+    background:rgb(11, 248, 102);
+    margin:5px 0px;
+    animation: manage_green 7s linear 0s infinite alternate;
+}
+
+.div_three{
+    width:50px;
+    height:30%;
+    background:rgb(44, 7, 255);
+    margin:5px;
+    animation: manage_blue 7s linear 0s infinite alternate;
+   
+}
+
+/* part 2 : animation composition   */
+
+@keyframes manage_red{
+    0%{
+        visibility:hidden;
+    }
+    13% {
+        visibility:hidden;
+    }
+
+    26% {
+        visibility:visible ;
+    }
+    
+    39% {
+        visibility:visible ;
+    }
+
+    52% {
+        visibility:visible ;
+    }
+
+    65% {
+        visibility:visible ;
+    }
+
+    78% {
+        visibility:visible ;
+    }
+
+    91% {
+        visibility:hidden;
+    }
+
+    100%{
+        visibility:hidden;
+    }
+    
+}
+
+@keyframes manage_green{
+    0%{
+        visibility:hidden ;
+    }
+    13% {
+        visibility:hidden ;
+    }
+
+    26% {
+        visibility:hidden ;
+    }
+    
+    39% {
+        visibility: visible;
+    }
+
+    52% {
+        visibility: visible;
+    }
+
+    65% {
+        visibility:visible ;
+    }
+
+    78% {
+        visibility:hidden ;
+    }
+
+    91% {
+        visibility:hidden ;
+    }
+
+    100%{
+        visibility:hidden;
+    }
+    
+}
+
+@keyframes manage_blue{
+    0%{
+        visibility:hidden ;
+    }
+    13% {
+        visibility:hidden ;
+    }
+
+    26% {
+        visibility:hidden ;
+    }
+    
+    39% {
+        visibility:hidden ;
+    }
+
+    52% {
+        visibility:visible ;
+    }
+
+    65% {
+        visibility:hidden ;
+    }
+
+    78% {
+        visibility:hidden ;
+    }
+
+    91% {
+        visibility:hidden ;
+    }
+
+    100%{
+        visibility:hidden;
+    }
+    
+}

@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <style>
+            div{
+            width:30px;
+            height:30px;
+            background: black;
+            animation: chk_color 15s linear 0s 4 alternate;
+        }
+
+        @keyframes chk_color{
+           0%{
+                background:red;
+                transform:translateX(5%);
+            }
+
+            25%{
+                background:blue;
+                transform:translateX(15%);
+            }
+
+            45%{
+                background:green;
+                transform:translateX(25%);
+            }
+
+            77%{
+                background:orange;
+                transform:translateX(35%);
+            }
+
+            100%{
+                background:yellow;
+                transform:translateX(45%);
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>

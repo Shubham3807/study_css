@@ -1,0 +1,75 @@
+body{
+    background : black;
+    color : white;
+}
+
+.subtitle{
+    font-style: normal;
+}
+/* ###################################### DEMO OF PSEUDOSELECTOR START #######################*/
+
+h2:hover{
+    color : red;
+}
+/*syntax to use a pseudeselector-----element:pesudoselector-----no spacing should be given */
+
+li:last-child{
+color : orange; 
+}
+
+li:nth-child(2){
+    color : green;
+}
+
+li:only-child{
+    color:yellow;
+}
+
+a:link{
+    color:chocolate;
+}
+
+a:visited{
+    color:red;
+}
+
+/*-------------------------- END OF DEMO OF PSEUDOSELECTORS ----------------------*/
+
+
+/*############################## DEMO OF ADVANCED SELECTORS START ############################ */
+
+/* code block of adjacent siblings */
+h2 + ul {
+    font-weight: bold;
+}
+
+/* demo of general siblings selectors */
+textarea~button{
+    color : red;
+}
+
+/* demo of child selecetor */
+ol > li {
+    font-style: italic;
+}
+
+/* demo of desendants selector */
+ol li {
+    text-decoration: line-through;
+}
+
+/* -------------------------------- END OF ADVANCED SELECTORS --------------------- */
+
+
+
+/* ###############################  DEMO OF ATTRIBUTE SELECTORS  ###########################*/
+img[src *= "../img/"]{
+    border : solid 10px white;
+}
+/* the above code will select all img elements that contains ../img/ as the part of the value of src attribute */
+
+/* demo of white space attribute selector */
+p[class ~= article-subtitle]{
+    font-style: italic;
+}
+/* -------------------------------  END OF ATTRIBUTE SELECTORS  ----------------------- */

@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(203, 235, 248);
+    font-family: 'Nunito', sans-serif;
+}
+
+#title{
+    text-align:center;
+}
+
+/*styling flex container */
+.flex_container{
+    width: 100%;
+    height:fit-content;
+    margin : 0px;
+    display:flex;
+    background-color: rgb(245, 244, 250);
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items:center;
+}
+
+#edu_img{
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}

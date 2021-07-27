@@ -1,6 +1,6 @@
 # REVISION 2 OF CSS TUTORIAL
 purpose : to have better command on styling concepts 
-commenced on : 25-07-2021
+commenced on : 21-07-2021
 finished on : 
 
 # selectors1 file

@@ -1,5 +1,4 @@
-*{
-    /* margin:0px; */
+*{ 
     box-sizing: border-box;
 }
 
@@ -28,6 +27,10 @@ h1{
     width:50%; 
 }
 
+hr{
+    width:50%;margin:auto;margin-top:-15px;
+}
+
 div[class ~= "item2"]{
     align-self: center;
 }
@@ -36,4 +39,26 @@ div[class ~= "item2"]{
 #edu_img{
     width:80%;
     margin: 10%;
+}
+
+
+/* applying media queries to be responsive as per screen size */
+
+/* media query for mobile phones */
+@media (max-width:768px){
+    .flex_container{
+        width:100%;
+        height:auto;
+        display:block;
+        background-color: whitesmoke;
+    }
+
+    .flex_item{
+        width:100%; 
+    }
+
+    .item1 p{
+        margin:5px;
+    }
+     
 }

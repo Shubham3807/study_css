@@ -5,3 +5,7 @@ finished on :
 
 # selectors1 file
 all major & common selectors used to select elements
+
+# flexbox2_v2 
+an enhanced version of flexbox2_v1
+media query has been added
